@@ -1,0 +1,45 @@
+{
+   "prefix": "!",
+   "ownerIDS": [
+      "734279832183111683"
+   ],
+   "status": {
+      "text": "!help",
+      "type": "STREAMING",
+      "COMMENT:": "TYPES ARE: PLAYING, STREAMING, WATCHING, LISTENING",
+      "url": "https://discord.gg/fKGPvjAQAy"
+   },
+   "clientsettings": {
+      "nodes": [
+         {
+            "host": "https://500-Commands.perogameryt.repl.co",
+            "port": 3000,
+            "password": "test"
+         }
+      ]
+   },
+   "spotify": {
+      "clientSecret": "zp5IZRI-yltVmHcaQ4C_TNZxi_wpwM18",
+      "clientID": "889053102760656936"
+   },
+   "settings": {
+      "COMMENT": "time_delay 0 === insta leave",
+      "leaveOnEmpty_Channel": {
+         "enabled": true,
+         "time_delay": 60000
+      },
+      "LeaveOnEmpty_Queue": {
+         "enabled": true,
+         "time_delay": 10000
+      },
+      "selfDeaf": true
+   },
+   "lyricssettings": {
+      "lyrics_finder": true,
+      "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+      "ksoft_api": {
+         "use_this_instead": true,
+         "api_key": ""
+      }
+   }
+}
